@@ -11,7 +11,6 @@ import org.w3c.dom.Text
 class ResAdapter(val menuList: ArrayList<ResModel>): RecyclerView.Adapter<ResAdapter.MyViewHolder>() {
 
     class MyViewHolder(itemView: View): RecyclerView.ViewHolder(itemView)  {
-
         val imageView: ImageView = itemView.findViewById(R.id.imageView)
         val titleTextView: TextView = itemView.findViewById(R.id.titleTextView)
         val detaiTextView: TextView = itemView.findViewById(R.id.detailTextView)
